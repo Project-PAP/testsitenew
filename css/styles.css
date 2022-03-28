@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "atticagroup-font";
+  src:url("fonts/atticagroup-font.eot");
+  src:url("fonts/atticagroup-font.eot?#iefix") format("embedded-opentype"),
+    url("fonts/atticagroup-font.woff") format("woff"),
+    url("fonts/atticagroup-font.ttf") format("truetype"),
+    url("fonts/atticagroup-font.svg#atticagroup-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "atticagroup-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "atticagroup-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dummy:before {
+  content: "\61";
+}
+.icon-btn-arrow:before {
+  content: "\62";
+}
+.icon-calendar:before {
+  content: "\63";
+}
+.icon-clear:before {
+  content: "\64";
+}
+.icon-minus:before {
+  content: "\65";
+}
+.icon-passenger:before {
+  content: "\66";
+}
+.icon-pet:before {
+  content: "\67";
+}
+.icon-plus:before {
+  content: "\68";
+}
+.icon-vehicle:before {
+  content: "\69";
+}
+.icon-edit:before {
+  content: "\6a";
+}
+.icon-itineraries:before {
+  content: "\6b";
+}
+.icon-arrow-itinerary:before {
+  content: "\6c";
+}
+.icon-arrow-previous:before {
+  content: "\6d";
+}
+.icon-arrow-next:before {
+  content: "\6e";
+}
+.icon-overnight:before {
+  content: "\6f";
+}
+.icon-cabin:before {
+  content: "\70";
+}
+.icon-seat:before {
+  content: "\71";
+}
+.icon-profile:before {
+  content: "\72";
+}
+.icon-trailer:before {
+  content: "\73";
+}
+.icon-pure-cabin:before {
+  content: "\74";
+}
+.icon-cabin-window:before {
+  content: "\75";
+}
+.icon-whole-cabin:before {
+  content: "\76";
+}
+.icon-cabin-filled:before {
+  content: "\77";
+}
+.icon-pet-filled:before {
+  content: "\78";
+}
+.icon-view:before {
+  content: "\79";
+}
+.icon-cabin-no-window:before {
+  content: "\7a";
+}
+.icon-arrow-down:before {
+  content: "\41";
+}
+.icon-arrow-up:before {
+  content: "\42";
+}
+.icon-payment:before {
+  content: "\44";
+}
+.icon-tick:before {
+  content: "\43";
+}
+.icon-arrow-itinerary-sml:before {
+  content: "\45";
+}
+.icon-clear-light:before {
+  content: "\47";
+}
+.icon-alert-error:before {
+  content: "\46";
+}
+.icon-alert-success:before {
+  content: "\48";
+}
+.icon-alert-dismiss:before {
+  content: "\49";
+}
+.icon-calendar-add:before {
+  content: "\4a";
+}
+.icon-printer:before {
+  content: "\4b";
+}
+.icon-share:before {
+  content: "\4c";
+}
+.icon-download:before {
+  content: "\4d";
+}
+.icon-swap:before {
+  content: "\4e";
+}
+.icon-alert-warning:before {
+  content: "\4f";
+}
+.icon-car-trailer:before {
+  content: "\50";
+}
+.icon-dots-vertical:before {
+  content: "\51";
+}
+.icon-arrow-sml-right:before {
+  content: "\52";
+}
+.icon-facebook:before {
+  content: "\53";
+}
+.icon-instagram:before {
+  content: "\55";
+}
+.icon-search:before {
+  content: "\56";
+}
+.icon-pin:before {
+  content: "\57";
+}
+.icon-varka:before {
+  content: "\58";
+}
+.icon-cocktail:before {
+  content: "\59";
+}
+.icon-sun:before {
+  content: "\5a";
+}
+.icon-suitcase:before {
+  content: "\30";
+}
+.icon-ship:before {
+  content: "\31";
+}
+.icon-sea-star:before {
+  content: "\32";
+}
+.icon-telephone:before {
+  content: "\33";
+}
+.icon-benefits:before {
+  content: "\35";
+}
+.icon-youtube:before {
+  content: "\54";
+}
+.icon-bookings:before {
+  content: "\34";
+}
+.icon-file:before {
+  content: "\36";
+}
+.icon-search-menu:before {
+  content: "\37";
+}
+.icon-ticket:before {
+  content: "\38";
+}
+.icon-phone:before {
+  content: "\39";
+}
+.icon-external-link:before {
+  content: "\21";
+}
+.icon-external-link-alt:before {
+  content: "\22";
+}
+.icon-email:before {
+  content: "\23";
+}
+.icon-fax:before {
+  content: "\24";
+}
+.icon-remove:before {
+  content: "\25";
+}
+.icon-drink:before {
+  content: "\26";
+}
+.icon-accommodation:before {
+  content: "\27";
+}
+.icon-entertainment:before {
+  content: "\28";
+}
+.icon-services:before {
+  content: "\29";
+}
+.icon-train:before {
+  content: "\2a";
+}
+.icon-star:before {
+  content: "\2b";
+}
+.icon-email-filled:before {
+  content: "\2c";
+}
+.icon-videocam:before {
+  content: "\2d";
+}
+.icon-arrow-download:before {
+  content: "\2e";
+}
+.icon-error-popup:before {
+  content: "\2f";
+}
+.icon-info:before {
+  content: "\3a";
+}
+.icon-fasteritos:before {
+  content: "\3b";
+}
+.icon-seminar:before {
+  content: "\3c";
+}
+.icon-vehicle-group-bgt:before {
+  content: "\3d";
+}
+.icon-vehicle-group-btr:before {
+  content: "\3e";
+}
+.icon-vehicle-group-car:before {
+  content: "\3f";
+}
+.icon-vehicle-group-carbgt:before {
+  content: "\40";
+}
+.icon-vehicle-group-mbscmp:before {
+  content: "\5b";
+}
+.icon-vehicle-group-moto:before {
+  content: "\5d";
+}
+.icon-vehicle-group-moto34:before {
+  content: "\5e";
+}
+.icon-vehicle-group-trlcrv:before {
+  content: "\5f";
+}
+.icon-vehicle-group-unknown:before {
+  content: "\60";
+}
+.icon-notification:before {
+  content: "\7c";
+}
